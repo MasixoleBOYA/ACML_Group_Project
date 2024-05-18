@@ -1,0 +1,63 @@
+Question 1
+You must state clearly where the dataset was obtained from.
+
+Source: https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt
+Author:
+Date:
+Licensing and permissions:
+
+Question 2
+Describe the contents of the dataset and your objectives with respect to the dataset.
+
+Dataset contents
+
+Dataset Name: Shakespeare dataset
+Purpose: To enable research on NLP tasks.
+Format: Plain text file
+Language: English
+Type: Shakespeare poems in dialog format.
+File size:
+Sample entries:
+
+Dataset objectives
+
+The main objective is to build a model using this dataset where the model will generate the next word based on a prompt of an initial word by the user. 
+This will be done by predicting the probability distribution of the next word given a sequence of previous words.
+
+1.	Preprocess the dataset to ensure it is in a format that can be used to train the model.
+2.	Build a model and train the model using the training dataset.
+3.	Use the validation dataset to avoid overfitting the model.
+4.	Test the model using the test set.
+5.	Evaluate the model.
+
+
+Question 3
+Describe the required pre-processing of the dataset and the split of data into train/validate/test
+
+Pre-processing:
+
+Standardising the text data:
+•	Convert all characters to lowercase to ensure uniformity.
+•	Convert contractions to their full forms.
+
+Tokenisation:
+•	Split the text into individual words.
+
+Encode the text:
+•	Convert the text into a numerical format that the model can understand. This will be done by converting the tokens into their corresponding numerical IDs.
+
+Data split
+
+Training set = 50%
+Validating set = 25%
+Test set = 25%
+
+Question 4
+Describe the choice of model and machine learning algorithm used. 
+Describe the implementation of the model. Python libraries such as Keras and Pytorch are allowed.
+
+Choice of model and ML algorithm
+…
+
+Implementation of the model
+…
