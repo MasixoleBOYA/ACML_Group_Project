@@ -2,12 +2,14 @@ Question 1
 You must state clearly where the dataset was obtained from.
 
 Source: https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt
-Author:
-Date:
-Licensing and permissions:
+Author: Karpathy, Andrej
+Date: 2015
+Licensing and permissions: Creative Commons Attribution 4.0 License
 
 Question 2
 Describe the contents of the dataset and your objectives with respect to the dataset.
+
+The dataset contains 40,000 lines of Shakespeare from a variety of Shakespeare's plays.
 
 Dataset contents
 
@@ -16,7 +18,8 @@ Purpose: To enable research on NLP tasks.
 Format: Plain text file
 Language: English
 Type: Shakespeare poems in dialog format.
-File size:
+File size: 1.06 MiB
+Versions: 1.0.0 (default) - No release notes.
 Sample entries:
 
 Dataset objectives
@@ -29,6 +32,7 @@ This will be done by predicting the probability distribution of the next word gi
 3.	Use the validation dataset to avoid overfitting the model.
 4.	Test the model using the test set.
 5.	Evaluate the model.
+6.  Prompt the model by giving it 5 words, and the model will generate the next word, which is the 6th word in the sentence.
 
 
 Question 3
@@ -38,7 +42,8 @@ Pre-processing:
 
 Standardising the text data:
 •	Convert all characters to lowercase to ensure uniformity.
-•	Convert contractions to their full forms.
+•	Remove speaker names from the text.
+•	Remove characters such as ?, !, ,
 
 Tokenisation:
 •	Split the text into individual words.
@@ -46,7 +51,7 @@ Tokenisation:
 Encode the text:
 •	Convert the text into a numerical format that the model can understand. This will be done by converting the tokens into their corresponding numerical IDs.
 
-Data split
+Data split:
 
 Training set = 50%
 Validating set = 25%
@@ -61,3 +66,14 @@ Choice of model and ML algorithm
 
 Implementation of the model
 …
+
+Question 5
+Describe any experiments that were done in finding a suitable model or  ne-tuning the
+model. Explain the choice of hyperparameters.
+
+Question 6
+Present various graphs that were generated during the training of the model.
+
+Question 7
+Present the results of the trained model on the test dataset, using both text and visuals,
+and provide a short analysis of the results.
