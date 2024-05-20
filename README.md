@@ -2,7 +2,7 @@
 ---
 
 ### PROJECT
-
+#### our own referal reasource: https://www.youtube.com/watch?v=tEV_Jtmx2cc
 The project for AC & ML requires you to analyse a dataset using machine learning techniques
 and present your methods and results.
 It is a group project. You should organise yourselves into groups of size 4 or less.
